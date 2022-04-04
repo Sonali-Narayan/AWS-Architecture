@@ -13,4 +13,4 @@ The three-tier architecture is the most popular implementation of a multi-tier a
 
 * It also strengthens the overall security of any modern application by exposing the web servers to the internet traffic while the application servers with business logic are isolated and can only be accessed by the web servers internally. Similarly the data persistence layer is also separated and can only be accessed by the application servers.
 
-## Below is the diagram that I created to create the three-tier architecture in AWS Management console
+#### Below is the diagram that I created to create the three-tier architecture in AWS Management console
