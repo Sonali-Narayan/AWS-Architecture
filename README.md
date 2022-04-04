@@ -12,3 +12,5 @@ The three-tier architecture is the most popular implementation of a multi-tier a
 * The de-coupling between the tiers help the teams to focus on specific tiers and make changes as quickly as possible. It brings ease of maintenance and also helps to quickly recover from an unexpected failure by focusing only on the faulty module.
 
 * It also strengthens the overall security of any modern application by exposing the web servers to the internet traffic while the application servers with business logic are isolated and can only be accessed by the web servers internally. Similarly the data persistence layer is also separated and can only be accessed by the application servers.
+
+## Below is the diagram that I created to create the three-tier architecture in AWS Management console
