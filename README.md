@@ -15,6 +15,6 @@ The three-tier architecture is the most popular implementation of a multi-tier a
 
 #### Below is the diagram that I created to create the three-tier architecture in AWS Management console
 
-![](Images/Three-Tier-Architecture-Network.png) 
+![](https://github.com/Sonali-Narayan/AWS-Architecture/tree/main/Image/Three-Tier-Architecture-Network.png) 
 
 
