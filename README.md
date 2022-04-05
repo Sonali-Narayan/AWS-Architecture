@@ -43,7 +43,7 @@ The three-tier architecture is the most popular implementation of a multi-tier a
  9. Set up the DNS service with Route 53.
  
  ### When I designed the solution I followed AWS well architected framework
-      ### C R O P S S
+ ### C R O P S S
           C- Cost Optimization
           R- Reliability
           O- Operational Excellence
