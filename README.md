@@ -30,3 +30,15 @@ The three-tier architecture is the most popular implementation of a multi-tier a
 * Route Table
 * Application Load Balancer
 * RDS
+
+### How To Create The Three-Tier Architecture In AWS Console
+ 1. Create a VPC
+ 2. Create Public and Private Sunbet in multiple availability zones.
+ 3. Create route tables and open the appropriare route.
+ 4. Create NAT Gateway in public subnet.
+ 5. Create Internet Gateway.
+ 6. Create and Provision EC2 instances in web and app tier with autoscaling groups.
+ 7. Setting up application load balancer for web and app tier.
+ 8. Create and provision RDS instance with read replica.
+ 9. Set up the DNS service with Route 53.
+ 10. 
