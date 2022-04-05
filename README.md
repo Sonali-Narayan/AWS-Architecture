@@ -19,3 +19,14 @@ The three-tier architecture is the most popular implementation of a multi-tier a
 
 
 ![Three-Tier-Architecture-App](https://user-images.githubusercontent.com/75151805/161828711-744b7135-8436-46e1-8fee-d8fa57015e8d.png)
+
+### AWS Services I Used 
+
+* VPC
+* EC2
+* Nat Gateway
+* Internet Gateway
+* Autoscaling
+* Route Table
+* Application Load Balancer
+* RDS
