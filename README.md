@@ -50,3 +50,5 @@ The three-tier architecture is the most popular implementation of a multi-tier a
           P- Performance Efficiency
           S- Security
           S- Sustainability
+
+![AWS-Well-Architect-Framework](https://user-images.githubusercontent.com/75151805/161836100-a0e1adba-384c-40ae-99d1-44eeaea8df35.png) 
