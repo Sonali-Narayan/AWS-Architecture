@@ -13,7 +13,7 @@ The three-tier architecture is the most popular implementation of a multi-tier a
 
 * It also strengthens the overall security of any modern application by exposing the web servers to the internet traffic while the application servers with business logic are isolated and can only be accessed by the web servers internally. Similarly the data persistence layer is also separated and can only be accessed by the application servers.
 
-#### Below is the diagram that I created to create the three-tier architecture in AWS Management console
+#### Below is the diagram that I designed to create the three-tier architecture in AWS Management console
 
 ![Three-Tier-Architecture-Network](https://user-images.githubusercontent.com/75151805/161828591-5274b05b-7c14-473a-8882-8fb9db067b45.png)
 
@@ -41,4 +41,12 @@ The three-tier architecture is the most popular implementation of a multi-tier a
  7. Setting up application load balancer for web and app tier.
  8. Create and provision RDS instance with read replica.
  9. Set up the DNS service with Route 53.
- 10. 
+ 
+ ### When I designed the solution I followed AWS well architected framework
+      ### C R O P S S
+          C- Cost Optimization
+          R- Reliability
+          O- Operational Excellence
+          P- Performance Efficiency
+          S- Security
+          S- Sustainability
