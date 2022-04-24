@@ -26,4 +26,25 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
  1. Download NodeJS application
  2. Create React-app using (create-react-app) command from a windows terminal
  3. Once a new application kicked off , (npm run build) command will optimize, compile, and dump the static files required to serve the application in a build directory.
- 4. 
+ 4. Create Two S3 buckets 1. bucket-name.domain 2. www.bucket-name.domain
+ 5. Upload all the files and build folder in bucket www.bucket-name.domain
+ 6. Make the second bucket public.
+ 7. Then change the bucket policy with the appropriate bucket name:
+ 8. {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::Bucket-Name/*"
+            ]
+        }
+    ]
+}
+ 9. Go to bucket properties for both the bucket and make the "Static website hosting" property enabled.
+ 10. 
