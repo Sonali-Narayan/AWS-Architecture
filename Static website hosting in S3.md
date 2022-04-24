@@ -16,8 +16,14 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
 
 ![AWS S3 Static Website Hosting drawio](https://user-images.githubusercontent.com/75151805/164999689-dd29fd37-6842-4cf8-a5f9-4fac8abb1c08.png)
 
-## AWS Services I used.
+## AWS Services I used :
 * S3 Bucket
 * Route 53
 * Certificate Manager
 * Cloudfront Distribution
+
+### Steps to deploy the React-App through Cloudfront distribution using windows desktop
+ 1. Download NodeJS application
+ 2. Create React-app using (create-react-app) command from a windows terminal
+ 3. Once a new application kicked off , (npm run build) command will optimize, compile, and dump the static files required to serve the application in a build directory.
+ 4. 
