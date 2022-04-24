@@ -14,6 +14,6 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
 
 ## Below is the Architecture Diagram that I designed with and without cloudfront distribution to deploy the static website;
 
-
+![AWS S3 Static Website Hosting drawio](https://user-images.githubusercontent.com/75151805/164999365-d1145b4f-a7e7-4456-b756-a29b93abe26f.png)
 
 #### Below is the diagram that I designed to create the three-tier architecture in AWS Management console
