@@ -59,3 +59,12 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
 ### Deploying the static website through Cloudfront distribution.
 
   1. The prerequisits of setting up the cloudfront distribution is to create a certificate to enable the https:// feature.
+  2. In the Certificate manager service there should be a request to create a public certificate. This is free from AWS.
+  3. The two domain names need to be added in the domain name area. 1 www.bucket-name.domain and 2. bucket-name.domain.
+  4. In the next window among the two validation, ideally the DNS validation should be checked out as this is suggested by AWS.
+  5. The certificate can be created.
+  6. There is a step by step process for validating the certificate.
+  7. Once the validation is complete the the next step is to set-up the cloud front distribution.
+  8. For the origin domain name in cloudfront distribution the bucket URL should be copied and pasted.
+  9. Next for vieweres protocol policy the setting should be " redirect http to https ".
+  10. Next the bucket names need to add to the CNAME space and select the certificate that was created previously.
