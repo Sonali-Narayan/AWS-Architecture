@@ -55,3 +55,7 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
  11. The bucket with bucket-name.domain will have "redirect request for an object" property checked.
  12. Next the the A records need to be created for both the buckets.
  13. This A record will display the static React-app in a different window.  
+
+### Deploying the static website through Cloudfront distribution.
+
+  1. The prerequisits of setting up the cloudfront distribution is to create a certificate to enable the https:// feature.
