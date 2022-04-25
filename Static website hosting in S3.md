@@ -30,7 +30,9 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
  5. Upload all the files and build folder in bucket www.bucket-name.domain
  6. Make the second bucket public.
  7. Then change the bucket policy with the appropriate bucket name:
- 8. {
+
+
+ 9. {
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -46,5 +48,10 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
         }
     ]
 }
+
+
  9. Go to bucket properties for both the bucket and make the "Static website hosting" property enabled.
- 10. 
+ 10. The bucket with www.bucket-name.domain will have property checked as " Host the static website".
+ 11. The bucket with bucket-name.domain will have "redirect request for an object" property checked.
+ 12. Next the the A records need to be created for both the buckets.
+ 13. This A record will display the static React-app in a different window.  
