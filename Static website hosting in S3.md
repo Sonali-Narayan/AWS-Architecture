@@ -68,3 +68,6 @@ Cost- optimized:  Because there’s less to set up and maintain, the cost of dep
   8. For the origin domain name in cloudfront distribution the bucket URL should be copied and pasted.
   9. Next for vieweres protocol policy the setting should be " redirect http to https ".
   10. Next the bucket names need to add to the CNAME space and select the certificate that was created previously.
+  11. The distribution state should be set as "enabled" and finally create the distribution.
+  12. Next we need to point the Route 53 A record to cloudfront distribution instead on S3 and that's the DNS set-up.
+  13. Then try the refresh the React-app web page and it will forward the webpage as WWW.bucket-name.domain.
